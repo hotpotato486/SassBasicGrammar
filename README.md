@@ -11,3 +11,5 @@ map 파일 → sass에서 지저분하게 코딩하더라도 css에서는 자동
 nesting : html 구조와 동일하게 css코드도 들여쓰기를 사용해서 컴포넌트별로 css 구문을 구조화 시킴. ex) 호버를 걸고 싶을 땐 태그 안에 &:hover{}<br>
 변수 : $bgBody: #eee; body {background: $bgBody;} → 유지보수가 쉬움.<br>
 📁sass_mixin : 자주 만드는 UI컴포넌트가 있을 때, 해당 기능을 빠르게 만들어주는 코드의 CSS꾸러미를 패키징하는 기술. 믹스인 형태로 만들어 놓은 다음에 호출해주고 바꾸고 싶은 부분만 지정해주면 편하게 어떤 컴포넌트든 재사용 가능. ex) @mixin button ($wid:100px, $bg:gray){display, width, color 등}<br>
+📁sass_for : <br>
+📁sass_each : <br>
